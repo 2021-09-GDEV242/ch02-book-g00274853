@@ -28,7 +28,15 @@ class Book
     
     public void setRefNumber(String ref)
     {
-        refNumber = ref;
+        if(refNumber.length() >= 3)
+        {
+            refNumber = ref;
+        }
+        else
+        {
+            System .out.println("Error");
+            System.out.println("Reference number at least three!");
+        }
     }
     
     public String getRefNumber()
