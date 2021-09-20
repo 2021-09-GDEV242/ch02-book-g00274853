@@ -64,7 +64,14 @@ class Book
     public void printDetails()
     {
         System .out.println("Title" + title + "Aouthor" + author + "Pages" +pages);
-    
+        if(refNumber.length() > 0)
+        {
+            System.out.println("Referance Number" + refNumber);
+        }
+        else
+        {
+            System .out.println("Referance Number: ZZZ");
+        }
     }
 
     // Add the methods here ...
