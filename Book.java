@@ -38,6 +38,7 @@ class Book
     {
         return pages;
     }
+    
     public void printAuthor()
     {
         System.out.println("Author" + author);
@@ -46,6 +47,12 @@ class Book
     public void printTitle()
     {
         System.out.println("Title" + title);
+    }
+    
+    public void printDetails()
+    {
+        System .out.println("Title" + title + "Aouthor" + author + "Pages" +pages);
+    
     }
 
     // Add the methods here ...
